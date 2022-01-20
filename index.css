@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@300;400;500;600;700&family=Lato:wght@400;700;900&family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&family=STIX+Two+Text:ital,wght@0,400;0,500;1,400;1,500&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: white;
+}
+.navbar img{
+    width: 150px;
+    height: auto;
+}
+.main-p{
+    background: rgb(98, 190, 98);
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+    color: white;
+}
+.navbar ul{
+    display: flex;
+    
+}
+.navbar ul li a{
+    padding: 0 22px;
+    line-height: 100px;
+    height: 40px;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+    transition: 1s;
+}
+.navbar ul li a:hover{
+    background: rgb(243, 241, 241);
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.sub-menu{
+    display: none;
+    
+}
+.sub-menu ul li a{
+    font-size: 1rem;
+    
+}
+.navbar ul li:hover .sub-menu{
+    display: block;
+    position: absolute;    
+}
+.navbar ul li:hover .sub-menu ul{
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    box-shadow: 5px 10px 22px rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
+}
+.navbar ul li:hover .sub-menu ul li{
+    width: 250px;
+    height: 50px;
+    border-bottom: 1px solid rgb(231, 228, 228);
+    text-align: left;
+    padding-bottom: 10px;
+}
+.navbar ul li:hover .sub-menu ul li:nth-child(6){
+    border-bottom: none;
+}
+.navbar ul li:hover .sub-menu ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    font-family: "Georama", sans-serif;
+}
+.main1{
+   margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text{
+    margin-top: -3%;
+    margin-left: 6%;
+}
+.text h1{
+    font-size: 5rem;
+    font-family: "STIX+Two+Text", sans-serif;
+    margin-bottom: 2%;
+    color: rgb(32, 31, 31);
+}
+.text p{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.2rem;
+    line-height: 28px;
+    margin-bottom: 5%;
+}
+.text a{
+    color: rgb(61, 162, 245);
+    font-size: 1.7rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    transition: 1s;
+}
+.text a:hover{
+    background: rgb(61, 162, 245);
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    color: white;
+    
+}
+.home-pic{
+    width: 45%;
+}
+.home-pic img{
+    width: 100%;
+}
+.main-second{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.first, .second, .third{
+    background: rgb(248, 218, 48);
+    padding: 1%;
+    height: 60vh;
+    width: 330px;
+    border-radius: 5%;
+}
+.first-1{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.first-1 p{
+    font-family: "STIX+Two+Text", sans-serif;
+    font-weight: 300;
+    margin-bottom: 3%;
+}
+.first-1 h2{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.9rem;
+    margin-bottom: 3%;
+}
+.para{
+    margin-top: 8%;
+    margin-right: 0px;
+}
+.para a{
+    background: rgb(134, 73, 29);
+    margin-right: 2%;
+    padding: 10px 12px;
+    border-radius: 10px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+.para-1{
+    margin-top: 10%;
+}
+.first-2{
+    margin-top: 15%;
+    margin-left: 10%;
+    width: 80%;
+    height: 50%;
+    
+    
+}
+.first-2 img{
+    width: 100%;
+    height: 100%;
+    
+}
+.first{
+    margin-left: 15%;
+}
+.second{
+    background: rgb(115, 241, 115);
+}
+.second .para a{
+    background: rgb(15, 141, 15);
+}
+.third{
+    background: rgb(67, 191, 240);
+    margin-right: 15%;
+}
+.third .para a{
+    background: rgb(13, 85, 114);
+}
+.icon-sec{
+    margin-top: 15%;
+    text-align: center;
+    margin-left: 5%;
+}
+.icon-sec h2, .all-section h2{
+    font-size: 3.5rem;
+    font-family: "Ubuntu", sans-serif;
+}
+.icon-sec-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.icon-first{
+    margin-top: -6%;
+    
+}
+.icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.1rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    margin-bottom: 2%;
+    width: 320px;
+    line-height: 70px;
+    border-radius: 10px;
+    margin-left: 35%;
+    text-align: left;
+}
+.icon p{
+    margin-right: 70px;
+    text-align: left;
+}
+.icon:nth-child(2) p, .icon:nth-child(3) p, .icon:nth-child(4) p, .icon:nth-child(5) p{
+    margin-right: 100px
+}
+.icon:nth-child(6) i, .icon:nth-child(6) p{
+    margin-left: 22px;
+    
+}
+.icon:nth-child(1){
+    background: rgb(243, 241, 241);
+    
+}
+.icon-second{
+    margin-right: 10%;
+}
+.icon-second img{
+    width: 90%;
+    height: auto;
+    
+}
+.icon:nth-child(2):hover, .icon:nth-child(3):hover, .icon:nth-child(4):hover, .icon:nth-child(5):hover, .icon:nth-child(6):hover{
+    background: rgb(243, 241, 241);
+}
+.all-section{
+    margin-top: 5%;
+    
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+}
+.first-row, .second-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    margin-top: 5%;
+}
+.row img{
+    width: 300px;
+    height: auto;
+}
+.row h3{
+    font-size: 1.5rem;
+    font-family: "Ubuntu", sans-serif;
+    color: rgb(26, 179, 26);
+    margin-top: 15%;
+    margin-bottom: 7%;
+}
+.row p{
+    font-family: "Roboto", sans-serif;
+    width: 290px;
+    letter-spacing: 1px;
+}
+.all-section h4{
+    margin-top: 5%;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    background: rgb(243, 241, 241);
+    padding: 18px 12px;
+    border-radius: 10px;
+    width: 85%;
+    margin-left: 5%;
+    transition: 0.5s;
+}
+.all-section h4:hover{
+    background: rgb(26, 179, 26);
+    color: white;
+}
+.trust{
+    text-align: center;
+    margin-top: -10%;
+    margin-bottom: 5%;
+    background: rgb(243, 241, 241);
+    height: 100vh;
+}
+.trust h2{
+    font-size: 3.2rem;
+    font-family: "Ubuntu", sans-serif;
+    
+}
+.trust h5{
+    font-size: 1.2rem;
+    font-family: "STIX+Two+Text", sans-serif;
+    font-weight: 300;
+    padding-top: 5%;
+    margin-top: 20%;
+    margin-bottom: 1%;
+}
+.trust-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.trust-main{
+    background: white;
+    width: 13%;
+    height: 28vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    margin-top: 5%;
+    border-radius: 5%;
+    transition: 0.5s;
+}
+.trust-main:hover{
+    box-shadow: 5px 10px 22px rgba(0, 0, 0, 0.1);
+}
+.trust-main:nth-child(1){
+    margin-left: 10%;
+}
+.trust-main:nth-child(4){
+    margin-right: 10%;
+}
+.trust-main i{
+    font-size: 2rem;
+    color: rgb(26, 179, 26);
+    margin-bottom: 10%;
+}
+.trust-main h4{
+    font-size: 1.3rem;
+    font-family: "STIX+Two+Text", sans-serif;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+.trust-main p{
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    line-height: 25px;
+    width: 220px;
+}
+
